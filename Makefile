@@ -16,3 +16,6 @@ docs:
 push:
 	git push origin master
 	git push github master
+
+docker-build:
+	docker build -t erd:0.2.0.0 .
